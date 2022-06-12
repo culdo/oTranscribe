@@ -13,7 +13,7 @@
     <meta property="og:title" content="oTranscribe">
     <meta property="og:image" content="http://otranscribe.com/favicon.png">
     <meta property="og:description" content="A free HTML5 app to take the pain out of transcribing interviews. Useful for journalists, academics and anyone else transcribing audio. And it's open source, too.">
- <link rel=stylesheet href=style.css> <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"> <link rel=prefetch type=application/l10n href=data.ini /> <link href="style.css" rel="stylesheet"></head> <body> <script src=l10n.js></script> <script src=./jakecache.js charset=utf-8></script> <div class="topbar inputting">
+ <link rel=stylesheet href=style.css> <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"> <link rel=prefetch type=application/l10n href=data.ini /> <link href="./style.css" rel="stylesheet"></head> <body> <script src=l10n.js></script> <script src=./jakecache.js charset=utf-8></script> <div class="topbar inputting">
     <div class="title active">oTranscribe</div>
     <div class="controls">
         <div class="button play-pause">
@@ -200,5 +200,17 @@
         <div class="backup-window"><!-- backup blocks go here --></div>
     </div>
 </div>
- <div class="settings-panel"></div> <link href=//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css rel=stylesheet>
- <script type="text/javascript" src="bundle.js"></script></body> </html> 
+ <div class="settings-panel"></div> <link href=//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css rel=stylesheet> <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-my-account']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ <script type="text/javascript" src="./bundle.js"></script></body> </html> 

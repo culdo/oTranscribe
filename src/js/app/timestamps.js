@@ -9,7 +9,7 @@ function getTime(){
     }
 
     return {
-        formatted: formatMilliseconds(time),
+        formatted: time,
         raw: time
     };
 };

@@ -1,0 +1,15 @@
+CACHE MANIFEST
+ 
+index.html
+style.css
+bundle.js
+l10n.js
+data.ini
+help/index.html
+
+NETWORK:
+*
+ 
+FALLBACK:
+
+# Updated 06/12/22_16:01:35:644390400
